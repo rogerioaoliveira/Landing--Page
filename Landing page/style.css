@@ -33,7 +33,7 @@ section.container-fotos div{
     float: left;
 }
 section.container-fotos div img {
-    width: 500px;
+    width: 30em;
     height: auto;
     margin: 5px 5px;
     border: 3px solid #ffffff;
@@ -106,4 +106,21 @@ p{
     padding-top: 50px;
     text-align: center;
     margin-left: -170px;
+}
+@media screen and (max-width: 600px){
+    #fotos{        
+        margin-top: 27em;
+        margin-left: -11%;  
+        
+    }
+    .container-form{
+        padding-top: 10px;
+        width: 30em;
+        height: 60em;
+        margin-top: 65em;  
+        
+    }     
+    #harley{
+        margin-left: 0em;
+    }
 }
